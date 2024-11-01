@@ -8,6 +8,41 @@ export default new Vuex.Store({
   state: {
     projects: [
       {
+        id: 23,
+        name: "SEEDB: Efficient Data-Driven Visualization. Recommendations to Support Visual Analytics",
+        href: "",
+        // thumbnail: "",
+        markdown: M("SEEDB"),
+      },
+      {
+        id: 22,
+        name: "大气污染时空经济效益可视分析",
+        href: "",
+        // thumbnail: "",
+        markdown: M("大气污染时空经济效益可视分析"),
+      },
+      {
+        id: 21,
+        name: "Social Network Analysis for Computer Scientists",
+        href: "",
+        // thumbnail: "",
+        markdown: M("SNACS"),
+      },
+      {
+        id: 20,
+        name: "大规模科学数据可视分析系统",
+        href: "",
+        // thumbnail: "",
+        markdown: M("大规模科学数据可视分析系统"),
+      },
+      {
+        id: 19,
+        name: "VAST Challenge 2023",
+        href: "",
+        // thumbnail: "",
+        markdown: M("VAST2023"),
+      },
+      {
         id: 14,
         name: "VAST Challenge 2022",
         href: "",
@@ -15,7 +50,7 @@ export default new Vuex.Store({
         markdown: M("VAST2022"),
       },
       {
-        id: 17,
+        id: 18,
         name: "VAST Challenge 2021",
         href: "",
         // thumbnail: "/images/VAST2021.png",
@@ -78,6 +113,7 @@ export default new Vuex.Store({
         markdown: M("Nature"),
       },
     ],
+    
     previousProjects: [
       {
         id: 5,
@@ -143,20 +179,29 @@ export default new Vuex.Store({
         markdown: M("openpose"),
       },
     ],
+    
     classrooms: [
       {
         id: 5,
         name: "2023年秋季课程",
-        enName: "Autumn class, 2022",
-        entry: "https://icloud.qd.sdu.edu.cn:7777/link/0261935EEB7A63D16C42D87E41E26B55",
-        repos: [],        
+        enName: "Autumn class, 2023",
+        entry: "/projects",
+        repos: [
+          {
+            markdown: M("AutumnClass2023-demo"),
+          }
+        ],
       },
       {
         id: 4,
         name: "2022年秋季课程",
         enName: "Autumn class, 2022",
-        entry: "https://icloud.qd.sdu.edu.cn:7777/link/0261935EEB7A63D16C42D87E41E26B55",
-        repos: [],        
+        entry: "/projects",
+        repos: [
+          {
+            markdown: M("AutumnClass2022-demo"),
+          }
+        ],     
       },
       {
         id: 3,
@@ -189,8 +234,8 @@ export default new Vuex.Store({
       },
       {
         id: 0,
-        name: "E-Learning",
-        enName: "E-Learning",
+        name: "E-Learning Platform",
+        enName: "E-Learning Platform",
         entry: "https://e-learning.sdu.edu.cn/",
         repos: [
           {
@@ -199,6 +244,7 @@ export default new Vuex.Store({
         ],        
       },
     ],
+    
     references: [
       {
         id: 0,
