@@ -20,6 +20,8 @@ In addition to the above tasks, we also implemented three tasks: similar poetry 
 
 The demo of this project is below.
 
-<video width="1280" height="720" controls>
+<!-- <video width="1280" height="720" controls>
     <source src="/demos/poetryVisualization.mp4" type="video/mp4">
-</video>
+</video> -->
+
+<video src="/demos/poetryVisualization.mp4" controls="controls" ></video>
