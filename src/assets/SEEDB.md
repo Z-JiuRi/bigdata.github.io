@@ -1,1 +1,1 @@
-# SEEDB
+SEEDB: efficient data-driven visualization recommendations to support visual analytics. Vartak et al. VLDB 2015.

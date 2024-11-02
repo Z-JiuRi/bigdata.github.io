@@ -167,7 +167,7 @@
                 d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
               </path>
             </svg></a>
-            <a href="https://github.com/z-jiuri" title="GitHub" target="_blank" rel="noopener noreferrer"><svg
+          <a href="https://github.com/z-jiuri" title="GitHub" target="_blank" rel="noopener noreferrer"><svg
               aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
               class="svg-inline--fa fa-github fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512">
@@ -250,89 +250,88 @@
       <tbody>
         <tr>
           <td>01</td>
-          <td>2022.09.07</td>
-          <td>
-            Course Introduction, Interactive Exploration System, Project Introduction, Academic Research Tips
-          </td>
+          <td>2024/09/05</td>
+          <td>Course Introduction and Bigdata Exploratory Analytics</td>
         </tr>
         <tr>
           <td>02</td>
-          <td>2022.09.14</td>
-          <td>Experiences on Visual Analytics</td>
+          <td>2024/09/12</td>
+          <td>Course Practice Project Introduction and Project Team Test</td>
         </tr>
         <tr>
           <td>03</td>
-          <td>2022.09.21</td>
-          <td>
-            Exploratory Data Analysis I: asking questions/data sampling
-          </td>
+          <td>2024/09/19</td>
+          <td>Project Experience Talk and Introduction to Scientific Research Practice</td>
         </tr>
         <tr>
           <td>04</td>
-          <td>221.09.28</td>
-          <td>Exploratory Data Analysis II: data quality & data reduction</td>
+          <td>221/09/26</td>
+          <td>Data Sampling and Dimensionality Reduction</td>
         </tr>
         <tr>
           <td>05</td>
-          <td>2022.10.05</td>
-          <td>Exploratory Data Analysis III: crowdsourcing & spreadsheet</td>
+          <td>2024/10/03</td>
+          <td>Data Quality Management</td>
         </tr>
         <tr>
           <td>06</td>
-          <td>2022.10.12</td>
-          <td>Statistical Analysis Methods</td>
+          <td>2024/10/10</td>
+          <td>Crowdsourcing and Spreadsheets</td>
         </tr>
         <tr>
           <td>07</td>
-          <td>2022.10.19</td>
-          <td>Visualization</td>
+          <td>2024/10/17</td>
+          <td>Methods and Tools for Statistical Analysis</td>
         </tr>
         <tr>
           <td>08</td>
-          <td>2022.10.26</td>
-          <td>Student Paper Presentation</td>
+          <td>2024/10/24</td>
+          <td>Visualization</td>
         </tr>
         <tr>
           <td>09</td>
-          <td>2022.11.02</td>
-          <td>Student Paper Presentation</td>
+          <td>2024/10/31</td>
+          <td>Student Paper Presentation 1</td>
         </tr>
         <tr>
           <td>10</td>
-          <td>2022.11.09</td>
-          <td>Machine Learning Methods</td>
+          <td>2024/11/07</td>
+          <td>Student Paper Presentation 2</td>
         </tr>
         <tr>
           <td>11</td>
-          <td>2022.11.16</td>
-          <td>Large-scale System</td>
+          <td>2024/11/14</td>
+          <td>Machine Learning Methods</td>
         </tr>
         <tr>
           <td>12</td>
-          <td>2022.11.23</td>
-          <td>Ubiquitous Computing</td>
+          <td>2024/11/21</td>
+          <td>Interaction for Visual Exploration</td>
         </tr>
         <tr>
           <td>13</td>
-          <td>2022.11.29</td>
-          <td>
-            Interaction for Visual Exploration
-          </td>
+          <td>2024/11/27</td>
+          <td>Ubiquitous Computing</td>
         </tr>
         <tr>
           <td>14</td>
-          <td>2022.12.07</td>
-          <td>How to write paper</td>
+          <td>2024/12/05</td>
+          <td>Large-scale System</td>
         </tr>
         <tr>
           <td>15</td>
-          <td>2022.12.14</td>
-          <td>Final Project Presentation</td>
+          <td>2024/12/12</td>
+          <td>How to write a paper</td>
         </tr>
         <tr>
           <td>16</td>
-          <td>2022.12.21</td>
-          <td>Final Project Presentation</td>
+          <td>2024/12/19</td>
+          <td>Final Project Presentation 1</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>2024/12/26</td>
+          <td>Final Project Presentation 2</td>
         </tr>
       </tbody>
     </table>
@@ -419,7 +418,7 @@ li {
   --photo-length: 180px;
   --major-text-color: #212121;
   --minor-text-color: #848484;
-  display: grid;
+  display: flex;
   gap: 1.5rem;
   grid-template-columns: repeat(5, calc(var(--photo-length) + 2rem));
   justify-content: center;

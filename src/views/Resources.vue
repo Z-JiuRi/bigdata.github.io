@@ -2,21 +2,10 @@
   <div>
     <h2 style="margin-bottom:24px">
       {{ $t("courseResources") }}
-      <Button
-        type="primary"
-        icon="logo-github"
-        style="margin-left:12px"
-        to="https://github.com/SDUBigDataCourse/resources"
-        target="_blank"
-        >Github</Button
-      >
+      <Button type="primary" icon="logo-github" style="margin-left:12px"
+        to="https://github.com/SDUBigDataCourse/resources" target="_blank">Github</Button>
     </h2>
-    <Table
-      :columns="columns"
-      :data="files"
-      stripe
-      :no-data-text="$t('fetching')"
-    >
+    <Table :columns="columns" :data="files" stripe :no-data-text="$t('fetching')">
       <template slot-scope="{ row }" slot="url">
         <a :href="row.download_url">{{ row.download_url }}</a>
       </template>

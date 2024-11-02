@@ -113,7 +113,7 @@ export default new Vuex.Store({
         markdown: M("Nature"),
       },
     ],
-    
+
     previousProjects: [
       {
         id: 5,
@@ -179,7 +179,7 @@ export default new Vuex.Store({
         markdown: M("openpose"),
       },
     ],
-    
+
     classrooms: [
       {
         id: 5,
@@ -201,14 +201,18 @@ export default new Vuex.Store({
           {
             markdown: M("AutumnClass2022-demo"),
           }
-        ],     
+        ],
       },
       {
         id: 3,
         name: "2021年秋季课程",
         enName: "Autumn class, 2021",
         entry: "/projects",
-        repos: [],        
+        repos: [
+          {
+            markdown: M("no-demo-found"),
+          }
+        ],
       },
       {
         id: 2,
@@ -216,7 +220,11 @@ export default new Vuex.Store({
         enName: "Autumn class, 2020",
         entry:
           "https://classroom.github.com/classrooms/55434637-sdubigdatacourse-2020",
-        repos: [],
+        repos: [
+          {
+            markdown: M("no-demo-found"),
+          }
+        ],
       },
       {
         id: 1,
@@ -241,10 +249,10 @@ export default new Vuex.Store({
           {
             markdown: M("E-Learning"),
           }
-        ],        
+        ],
       },
     ],
-    
+
     references: [
       {
         id: 0,
